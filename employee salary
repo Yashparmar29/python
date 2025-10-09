@@ -1,0 +1,9 @@
+---employee details---
+emp_name = input('enter employee name :- ')
+basic_salary = int(input('enter salary :- '))
+
+gross_salary = basic_salary+(basic_salary * 0.2)+(basic_salary * 0.1)
+print('HR :- ',basic_salary * 0.2)
+print('DR',basic_salary * 0.1)
+
+print('total salary :- ',gross_salary)
