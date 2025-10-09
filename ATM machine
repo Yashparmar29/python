@@ -1,0 +1,26 @@
+---- ATM ----
+account_no = int(input('enter account number :- '))
+name = input('enter account holder name :- ')
+password = input('enter password :- ')
+
+if account_no == 1234 and password == 'yash1234' :
+    print('welcome ',name)
+    balance = float(input('enter your balance :- '))
+    print('1 -> deposit')
+    print('2 -> withdraw')
+    ch = int(input('enter your choice :- '))
+    if ch == 1 :
+        d_balance = int(input('enter balance you can deposit :- '))
+        balance += d_balance
+        print('depodited amount :- ',d_balance)
+        print('your balance :- ',balance)
+    elif ch == 2 :
+        w_balance = int(input('enter balance you can withdraw :- '))
+        if w_balance < balance :
+            balance -= w_balance
+            print('withdrawal amount :- ',w_balance)
+            print('your balance :- ',balance)
+        else :
+            print('your balance is inefficient')
+else :
+    print('user id or password is wrong')
