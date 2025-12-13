@@ -1,0 +1,10 @@
+#pandas dataframe
+data = {
+    "Name": ["Amit", "Ravi", "Neha"],
+    "Marks": [85, 90, 70]
+}
+
+df = pd.DataFrame(data)
+
+df["Result"] = df["Marks"].apply(lambda x: "Pass" if x >= 75 else "Fail")
+print(df)
