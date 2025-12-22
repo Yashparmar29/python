@@ -1,0 +1,13 @@
+#List in python
+a = ["yash","bhavik","darshana"]
+
+#print value
+for i in a:
+    print(i)
+
+#update value
+a[0] = "Darshan"
+print(a)
+
+#slicing value
+print(a[0:2])
