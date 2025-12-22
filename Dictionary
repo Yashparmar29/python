@@ -1,0 +1,11 @@
+#Dictionary 
+
+result = {
+"sid" : 1,
+"sname" : "bhavik",
+"mark" : 45.9}
+
+for i in result :
+    print(i)
+
+print(result)
