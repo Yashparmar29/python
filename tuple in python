@@ -1,0 +1,11 @@
+#create Tuple
+name = ("java","python","Dcn")
+print(name)
+
+#print tuple
+for i in name:
+    print(i)
+
+#update Tuple
+#name[0] = "Dbms" this type of statement give error
+tuple
