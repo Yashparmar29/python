@@ -1,0 +1,10 @@
+stack = []
+
+# push
+stack.append(10)
+stack.append(20)
+stack.append(30)
+
+# pop
+top = stack.pop()   # 30
+print(stack)        # [10, 20]
